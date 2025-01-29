@@ -5,11 +5,11 @@ report will be continuously updated with weather information such
 as temperature, condition, air quality etc for a preferred location.
 
 ## Environment Setup
--> we are using weatherapi.com website to configure our data source
--> firstally we created resource group
--> then create azure databricks workspace
--> Create a EventHubs namespace
--> Create Azure KeyVault
+1. we are using weatherapi.com website to configure our data source
+2. firstally we created resource group
+3. then create azure databricks workspace
+4. Create a EventHubs namespace
+5. Create Azure KeyVault
 
 ## Data Ingestion Using Databricks(DB)
 1) Setup EventHub
