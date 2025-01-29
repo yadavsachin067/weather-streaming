@@ -1,17 +1,17 @@
-#Project Explaination
+# Project Explaination
 
 The main objective is to create a real time weather report. This 
 report will be continuously updated with weather information such
 as temperature, condition, air quality etc for a preferred location.
 
-##Environment Setup
+## Environment Setup
 -> we are using weatherapi.com website to configure our data source
 -> firstally we created resource group
 -> then create azure databricks workspace
 -> Create a EventHubs namespace
 -> Create Azure KeyVault
 
-##Data Ingestion Using Databricks(DB)
+## Data Ingestion Using Databricks(DB)
 1) Setup EventHub
 2) Create a Cluster
 3) Install EventHub Library in Cluster
@@ -20,7 +20,7 @@ as temperature, condition, air quality etc for a preferred location.
 8) Final data ingestion from DB to eventHub
 
 
-##Data Ingestion Using Azure Functions(Another approach to do above step)
+## Data Ingestion Using Azure Functions(Another approach to do above step)
 -> Go to Azure function app created in Environment Setup step.
 -> Then go to functions which gives multiple approaches to create a function.
 -> We'd go with creating a function using VScode.
